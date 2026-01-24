@@ -2,7 +2,7 @@
 
 // alert("hello world"); // we use alert to show message in popup box // using noswjs not browser
 
-let name = "hitesh"
+let name = "hey"
 let age = 18
 let isLoggedIn = false
 let state;
