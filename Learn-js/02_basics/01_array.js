@@ -162,6 +162,15 @@ console.log(Array.of(num1,num2,num3));//[100,200,300]
 
 console.log(marvel.toString()); //iron,spider,thor
 
+//flattening array
+const flatarr = [1,2,[3,4],[5,6,[7,8]]];
+console.log(flatarr.flat(2)); //[ 1, 2, 3, 4, 5, 6, 7, 8 ] 
+// default depth is 1 , infinite depth -> flat(Infinity)
+
+//fill method
+const fillarr = new Array(5).fill(0); // [0,0,0,0,0]
+console.log(fillarr);
+
 
  
 
